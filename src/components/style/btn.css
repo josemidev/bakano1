@@ -30,3 +30,16 @@
     font-size: 24px;
     line-height: 143%;
 }
+
+.btn--banner{
+    width: 255px;
+    height: 53px;
+    background: var(--primary-yellow);
+    border: none;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 196.5%;
+    color: var(--white-font);
+}

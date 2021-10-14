@@ -1,0 +1,61 @@
+@import url('./const.css');
+
+.banner__form{
+    width: 100%;
+    height: 360px;
+    background: linear-gradient(104.99deg, #131258 14.08%, #13062B 46.43%, #311542 90.35%);
+    padding: 1rem 0;
+    
+}
+
+.banner__form .banner__form--body h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 82px;
+    margin-block: 1rem;
+    color: var(--white-font);
+}
+
+.banner__form .banner__form--body .banner__title--cite{
+    color:#857192;
+    font-style: normal;
+}
+
+
+.banner__form .banner__form--body p{
+    width: 500px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-font);
+}
+
+.banner__form .banner__form--footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-block: 2rem;
+    margin-inline-end: 10%;
+}
+
+.banner__form .banner__form--footer .footer--form input{
+    width: 276px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px var(--white-font);
+    margin-inline-end: 85px ; 
+    outline: none;
+}
+
+.banner__form .banner__form--footer .footer--form input::placeholder{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-inline-end: 1rem;
+
+}

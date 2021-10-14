@@ -1,0 +1,57 @@
+@import url('../../../components/style/const.css');
+
+.home__sec5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ; 
+}
+
+.home__sec5>div{
+    padding: 1.7rem;
+}
+
+.home__sec5 .home__Sec5--content1{
+    grid-area: 1/1/2/2;
+
+}
+
+.home__sec5 .home__Sec5--content2{
+    grid-area: 1/2/2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home__sec5 .home__Sec5--content2 .content--sec1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 109.5%;
+    color:#110729;
+    margin-block-end: 33px;
+}
+
+.home__sec5 .home__Sec5--content2 .content--sec1 div{
+    width: 100px;
+    height: 4px;
+    background: var(--primary-yellow);
+    margin-inline-end: 1rem;
+}
+
+.home__sec5 .home__Sec5--content2 h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 122.5%;
+    margin-block-end: 2rem;
+}
+
+.home__sec5 .home__Sec5--content2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22,48px;
+}
