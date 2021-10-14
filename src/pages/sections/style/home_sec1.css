@@ -1,0 +1,57 @@
+@import url('../../../components/style/const.css');
+
+.home__sec1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ; 
+}
+
+.home__sec1>div{
+    padding: 1rem;
+}
+
+.home__sec1 .home__Sec1--content1{
+    grid-area: 1/1/2/2;
+
+}
+
+.home__sec1 .home__Sec1--content2{
+    grid-area: 1/2/2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home__sec1 .home__Sec1--content2 .content--sec1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 109.5%;
+    color:#110729;
+    margin-block-end: 33px;
+}
+
+.home__sec1 .home__Sec1--content2 .content--sec1 div{
+    width: 100px;
+    height: 4px;
+    background: var(--primary-yellow);
+    margin-inline-end: 1rem;
+}
+
+.home__sec1 .home__Sec1--content2 h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 97%;
+    margin-block-end: 63px;
+}
+
+.home__sec1 .home__Sec1--content2 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140.5%;
+}
