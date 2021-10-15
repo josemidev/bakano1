@@ -1,0 +1,51 @@
+@import url('../../../components/style/const.css');
+
+.nosotros__sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 637px;
+    padding-block: 55px;
+    border-block: solid 1px #BEBEBE;
+}
+
+.nosotros__sec2 .nosotros__sec2--content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nosotros__sec2 .nosotros__sec2--content2 .subtitle{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 109.5%;
+    color: #110729;
+}
+
+.nosotros__sec2 .nosotros__sec2--content2 h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 97%;
+    color: #110729;
+    margin-block: 1rem;
+}
+
+.nosotros__sec2 .nosotros__sec2--content2 div{
+    width: 100px;
+    height: 4px;
+    background-color: var(--primary-yellow);
+    margin-block: 1rem;
+}
+
+
+.nosotros__sec2 .nosotros__sec2--content2 .text{
+    width: 310px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140.5%;
+}

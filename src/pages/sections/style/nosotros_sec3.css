@@ -1,0 +1,34 @@
+@import url('../../../components/style/const.css');
+
+.nosotros__sec3{
+    width: 100%;
+    height: 521px;
+    background-color: var(--white-font);
+    
+}
+
+.nosotros__sec3 .nosotros__sec3--content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 521px;
+}
+
+.nosotros__sec3--content .sec3--card{
+    width: 225px;
+    text-align: center;
+}
+
+.nosotros__sec3--content .sec3--card .sec3--card-body h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140.5%;
+}
+
+.nosotros__sec3--content .sec3--card .sec3--card-body p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140.5%;
+}

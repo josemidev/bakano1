@@ -12,7 +12,9 @@ function Navbar() {
         <nav>
             <div className="container">
                 <div className="nav__logo">
-                    <img src={image.logo_white} alt="" />
+                    <Link to="/" className="link">
+                        <img src={image.logo_white} alt="" />
+                    </Link>
                 </div>
                 <div className="nav__items">
                     <ul>
@@ -21,10 +23,20 @@ function Navbar() {
                                 Nosotros
                             </Link>
                         </li>
-                        <li className="item">Servicios</li>
-                        <li className="item">Portafolio</li>
+                        <li className="item">
+                        <Link to="/pages/servicios" className="link">
+                                Servicios
+                            </Link>
+                        </li>
+                        <li className="item">
+                            <Link to="/pages/portafolio" className="link">
+                                Portafolio
+                            </Link>
+                        </li>
                         <li className="item">Blog</li>
+                        <Link to="/pages/contacto" className="link">
                         <Btn type="regular" content="Contacto" />
+                        </Link>
                     </ul>
                 </div>
             </div>

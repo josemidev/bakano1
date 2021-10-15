@@ -1,0 +1,23 @@
+@import url('./const.css');
+
+.hero2{
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.5rem;
+}
+
+.hero--nosotros{
+    background-image: url('../../asset/img/hero2.png');
+}
+
+.hero--servicios{
+    background-image: url('../../asset/img/hero3.png');
+}
+
+.hero--portafolio{
+    background-image: url('../../asset/img/hero2.png');
+}
