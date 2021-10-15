@@ -49,6 +49,7 @@
     border-bottom: solid 1px var(--white-font);
     margin-inline-end: 85px ; 
     outline: none;
+    color: var(--white-font);
 }
 
 .banner__form .banner__form--footer .footer--form input::placeholder{
@@ -57,5 +58,6 @@
     font-size: 16px;
     line-height: 24px;
     padding-inline-end: 1rem;
+    color: #857192;
 
 }

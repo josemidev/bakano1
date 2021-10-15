@@ -5,6 +5,7 @@ import Btn from './Btn';
 import {image} from '../asset/img'
 
 import './style/navbar.css'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
@@ -15,7 +16,11 @@ function Navbar() {
                 </div>
                 <div className="nav__items">
                     <ul>
-                        <li className="item">Nosotros</li>
+                        <li className="item">
+                            <Link to="/pages/nosotros" className="link">
+                                Nosotros
+                            </Link>
+                        </li>
                         <li className="item">Servicios</li>
                         <li className="item">Portafolio</li>
                         <li className="item">Blog</li>

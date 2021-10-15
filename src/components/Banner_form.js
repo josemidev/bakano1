@@ -17,8 +17,8 @@ function Banner_form() {
                 </div>
                 <div className="banner__form--footer">
                     <div className="footer--form">
-                    <input type="text" placeholder="Nombre" autoComplete="name" />
-                    <input type="text" placeholder="Celular" autoComplete="tel" />
+                    <input type="text" placeholder="Nombre"  />
+                    <input type="text" placeholder="Celular" />
                     </div>
 
                     <Btn type="banner" content="SEND" />
